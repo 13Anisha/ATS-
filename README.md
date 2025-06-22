@@ -1,5 +1,7 @@
 # 📄 Resume Analyzer using Streamlit & Gemini AI
 
+Streamlit app:https://gsfqsnygrpps3cnh6hllfc.streamlit.app/
+
 The **Resume Analyzer** is an intelligent web application built with **Streamlit** and **Google Gemini AI** that evaluates how well a resume aligns with a job description.
 
 It helps:
