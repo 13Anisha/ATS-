@@ -16,7 +16,7 @@ def pdf_text_extractor(uploaded_file):
         raise FileNotFoundError("File not Uploaded!")
 
 def generate_response(prompt, resume_text, job_input):
-    model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
+    model = genai.GenerativeModel('models/gemini-2.5-pro')
     response = model.generate_content([
         prompt,
         "Resume:\n" + resume_text,
